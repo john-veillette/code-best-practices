@@ -1,0 +1,12 @@
+name: tutorial
+channels:
+- conda-forge
+dependencies:
+- python>=3.8
+- scipy
+- numpy
+- pandas
+- jupyter
+- pip
+- pip:
+  - pytest
